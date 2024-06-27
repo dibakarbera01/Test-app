@@ -35,6 +35,7 @@ export default function About() {
   
     return (
       <CoreAccordion key={packageName} styleClasses={[CoreClasses.PADDING.P1]}>
+
         <CoreAccordionSummary styleClasses={[CoreClasses.PADDING.P1]}>
           <CoreTypographyBody1>{`${name ? name : "Name not found"} ${version ? version : "version not available"}`}</CoreTypographyBody1>
         </CoreAccordionSummary>
